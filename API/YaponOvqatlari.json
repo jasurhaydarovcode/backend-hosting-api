@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title": "Yapon Ramen Sho'rva",
+    "price": 15.99,
+    "description": "Mazali va xushbo'y ramen sho'rva, an'anaviy yapon taomlaridan biri.",
+    "image": "https://cdn.media.amplience.net/i/japancentre/recipe-233-japanese-ramen-noodles/Japanese-ramen-noodles?$poi$&w=1200&h=630&sm=c&fmt=auto",
+    "category": "Ramen",
+    "rating": {
+      "rate": 4.7,
+      "count": 150
+    }
+  },
+  {
+    "id": 2,
+    "title": "Vegetarian Sushi",
+    "price": 12.50,
+    "description": "Yangi va toza sabzavotlardan tayyorlangan vegetarian sushi.",
+    "image": "https://www.justonecookbook.com/wp-content/uploads/2023/05/Vegetarian-Sushi-Rolls-9707-I-1.jpg",
+    "category": "Sushi",
+    "rating": {
+      "rate": 4.5,
+      "count": 200
+    }
+  },
+  {
+    "id": 3,
+    "title": "Yapon Tovuq Curry",
+    "price": 18.00,
+    "description": "Ziravorli va xushbo'y tovuq curry, guruch bilan xizmat qilinadi.",
+    "image": "https://www.justonecookbook.com/wp-content/uploads/2021/10/Japanese-Chicken-Curry-3787-I-1.jpg",
+    "category": "Curry",
+    "rating": {
+      "rate": 4.8,
+      "count": 180
+    }
+  },
+  {
+    "id": 4,
+    "title": "Tempura Udon",
+    "price": 14.75,
+    "description": "Yapon uslubida tempura va udon makaronlari bilan taqdim etilgan taom.",
+    "image": "https://images.yummy.ph/yummy/uploads/2023/03/tempura-udon-640.jpg",
+    "category": "Udon",
+    "rating": {
+      "rate": 4.6,
+      "count": 130
+    }
+  },
+  {
+    "id": 5,
+    "title": "Matcha Cheesecake",
+    "price": 9.99,
+    "description": "An'anaviy Yapon matcha choyidan tayyorlangan mazali cheesecake.",
+    "image": "https://senbirdtea.com/cdn/shop/articles/Matcha_Cheesecake_Header-1.jpg?v=1709546608",
+    "category": "Dessert",
+    "rating": {
+      "rate": 4.9,
+      "count": 210
+    }
+  }
+]
