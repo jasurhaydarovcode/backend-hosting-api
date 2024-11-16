@@ -5,9 +5,7 @@
 </div>
 
 ### Home Page
-```
-https://backend-hosting-api.onrender.com/
-```
+https://backend-hosting-api.onrender.com
 
 ---
 
