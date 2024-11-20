@@ -8,10 +8,19 @@ app.set('view engine', 'ejs');
 
 // Create a route
 app.get('/', function (req, res) {
-    res.render('index', {title: 'Hello', message: 'This is an EJS example.'});
+    res.render('index', {
+        description: 'Access free and reliable fake JSON APIs for testing and development. Generate mock data for your projects with customizable endpoints, supporting seamless API integration.',
+        keywords: 'fake JSON APIs, free JSON API for testing, mock API data, API development tools, fake API endpoints, JSON data for developers, API integration testing'
+    });
 });
 
-app.use(express.static('public'))
+// Create a API route
+app.get('/api', function (req, res) {
+    res.render('api');
+});
+
+// Static folder
+app.use(express.static(path.join(__dirname, 'public')))
 
 // JSON faylini import qilish
 const shopData = require('./API/YaponOvqatlari.json');
@@ -31,7 +40,5 @@ app.get('/api/uzbekistanShaxarlari', (req, res) => {
 
 // Serverni ishga tushirish
 app.listen(port, () => {
-    console.log(`\n API server http://localhost:${port} da ishga tushdi! \n
- Yapon Ovqatlari http://localhost:${port}/api/yaponOvqatlari da ishga tushdi!
-    `);
+    console.log(`\n API server http://localhost:${port} da ishga tushdi!\n`);
 });

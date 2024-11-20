@@ -1,0 +1,16 @@
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+a {
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.white {
+    color: white;
+}
