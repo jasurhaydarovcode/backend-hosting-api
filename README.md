@@ -7,6 +7,8 @@
 ### Home Page
 https://backend-hosting-api.onrender.com
 
+https://backend-hosting-api.onrender.com/api
+
 ---
 
 ### Get Data's
@@ -14,3 +16,4 @@ https://backend-hosting-api.onrender.com
 | Title | Hosting |
 |:--------------:| :---------------------------------------------------------: |
 | Japanese Foods | https://backend-hosting-api.onrender.com/api/yaponOvqatlari |
+| Uzbekistan City Districts | https://backend-hosting-api.onrender.com/api/uzbekistanShaxarlari |
