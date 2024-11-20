@@ -11,7 +11,7 @@ https://backend-hosting-api.onrender.com/api
 
 ---
 
-### Get Data's
+### Get Data's template
 
 | Title | Hosting |
 |:--------------:| :---------------------------------------------------------: |
